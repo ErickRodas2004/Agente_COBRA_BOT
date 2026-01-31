@@ -1,8 +1,8 @@
 # 🤖 COBRA-BOT AI: Agente de Cobranzas Inteligente con Flet & LangGraph
 
 ## 👥 Integrantes (Grupo 11)
-* *George Anthony Peñafiel Alvarado*
 * *Erick Josue Rodas Quimis*
+* *George Anthony Peñafiel Alvarado*
 
 ## 📝 Descripción del Proyecto
 Sistema inteligente de gestión de cobranzas desarrollado con *Python* y *Flet* (interfaz gráfica moderna). Utiliza *LangGraph* para orquestar un flujo de trabajo agéntico que permite:
@@ -21,4 +21,5 @@ Sistema inteligente de gestión de cobranzas desarrollado con *Python* y *Flet* 
 3.  Ejecutar: python src/main.py
 
 ## 🎥 Video Demo
+
 [PEGAR AQUÍ TU LINK DEL VIDEO]
