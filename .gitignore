@@ -1,0 +1,30 @@
+# --- Python Standard ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos Virtuales (Donde se instalan las librerías) ---
+venv/
+.venv/
+env/
+.env/
+
+# --- Datos del Proyecto (CRÍTICO) ---
+# Ignoramos la base de datos para no subir información real de clientes a GitHub
+clientes.csv
+
+# --- Variables de Entorno y Secretos ---
+# Aunque en tu código actual la API Key está en el script (lo cual no es ideal para prod),
+# si usas un archivo .env a futuro, debe estar ignorado.
+.env
+.env.local
+
+# --- Flet & Build ---
+# Archivos generados si compilas la app para escritorio/móvil
+build/
+dist/
+*.spec
+
+# --- IDEs (Configuraciones de editor que no deben compartirse) ---
+.vscode/
+.idea/
